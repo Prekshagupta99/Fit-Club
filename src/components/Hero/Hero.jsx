@@ -1,12 +1,10 @@
-import React from "react";
-import Header from "../Header/Header";
-import Calories from "../../assets/calories.png";
-import Heart from "../../assets/heart.png";
-import hero_image from "../../assets/hero_image.png";
-import hero_image_back from "../../assets/hero_image_back.png";
-import "./Hero.css";
 import { motion } from "framer-motion";
 import NumberCounter from "number-counter";
+import React from "react";
+import Heart from "../../assets/heart.png";
+import hero_image from "../../assets/hero_image.png";
+import Header from "../Header/Header";
+import "./Hero.css";
 
 const Hero = () => {
   const transition = { type: "spring", duration: 3 };
@@ -88,23 +86,17 @@ const Hero = () => {
           initial={{ right: "11rem" }}
           whileInView={{ right: "20rem" }}
           transition={transition}
-          src={hero_image_back}
           alt=""
           className="hero-image-back"
         />
 
-        {/*calories*/}
+        
         <motion.div
           initial={{ right: "37rem" }}
           whileInView={{ right: "28rem" }}
           transition={transition}
-          className="calories"
+          
         >
-          <img src={Calories} alt="" />
-          <div>
-            <span>Calories Burned</span>
-            <span>220 Kcal</span>
-          </div>
         </motion.div>
       </div>
     </div>

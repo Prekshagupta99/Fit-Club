@@ -4,8 +4,8 @@
 }
 
 .logo{
-    width: 10rem;
-    height: 3rem;
+    width: 8rem;
+    height: 8rem;
 }
 
 .header-menu{
@@ -16,7 +16,7 @@
 }
 
 .header-menu>li:hover{
-    color: var(--orange);
+    color: var(yellow);
     cursor: pointer;
 }
 

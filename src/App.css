@@ -2,10 +2,10 @@
 :root {
   --lightgray: #d9d9d9;
   --gray: #9c9c9c;
-  --orange: #f48915;
+  --orange: rgb(249,203,11);
   --darkGrey: #464d53;
   --caloryCard: #656565;
-  --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+  --planCard: linear-gradient(210.41deg, rgb(230,202,90) 1.14%, #ffa739 100.75%);
   --appColor: #3c3f45;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .blur{
-  background: rgba(253, 123, 43, 0.69);
+  background: rgb(249,203,11);
   position: absolute;
   border-radius: 50%;
   filter: blur(150px);

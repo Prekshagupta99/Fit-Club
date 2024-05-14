@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import Bars from "../../assets/bars.png";
-import LOGO from "../../assets/logo.png";
+import LOGO from "../../images/logo.png";
 import "./Header.css";
 
 const Header = () => {
