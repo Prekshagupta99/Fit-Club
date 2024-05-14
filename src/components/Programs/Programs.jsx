@@ -18,10 +18,10 @@ return (
             {program.image}
             <span>{program.heading}</span>
             <span>{program.details}</span>
-            <div className="join-now">
+            {/* <div className="join-now">
             <span>Join Now</span>
             <img src={RightArrow}></img>
-            </div>
+            </div> */}
         </div>
         ))}
     </div>

@@ -13,7 +13,7 @@ const Plans = () => {
         <span className="stroke-text">NOW WITHUS</span>
       </div>
 
-      {/* plans card */}
+      {/* plans card
       <div className="plans">
         {plansData.map((plan, i) => (
           < div className="plan" key={i}>
@@ -35,7 +35,7 @@ const Plans = () => {
             <button className="btn">Join Now</button>
           </div>
         ))}
-      </div>
+      </div> */}
       </div>
   );
 };
