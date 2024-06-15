@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import NumberCounter from "number-counter";
 import React from "react";
 import Heart from "../../assets/heart.png";
-import hero_image from "../../assets/hero_image.png";
+import hero_image from "../../assets/hero__image2.png";
 import Header from "../Header/Header";
 import "./Hero.css";
 
@@ -25,15 +25,13 @@ const Hero = () => {
         </div>
         {/*hero heading*/}
         <div className="hero-text">
-          <div>
-            <span className="stroke-text">SHAPE </span>
-            <span>YOUR</span>
+          <div className="vibe-text">
+            <span className="stroke-text">.   .    .                VIBE </span>
           </div>
           <div>
-            <span>IDEAL BODY</span>
+            <span>IT'S IN YOU</span>
           </div>
           <div>
-            {" "}
             <span>
               In here we will help you to shape and build your ideal body and
               live your life to the fullest
@@ -44,27 +42,22 @@ const Hero = () => {
         <div className="figures">
           <div>
             <span>
-              <NumberCounter end={140} start={100} delay="4" preFix="+" />
+              <NumberCounter end={1} start={1} delay="4" preFix="+" />
             </span>
-            <span>expert coaches</span>
+            <span>International Coach</span>
           </div>
           <div>
             <span>
-              <NumberCounter end={948} start={800} delay="4" preFix="+" />
+              <NumberCounter end={1000} start={800} delay="4" preFix="+" />
             </span>
             <span>Members joined</span>
           </div>
           <div>
             <span>
-              <NumberCounter end={50} start={0} delay="4" preFix="+" />
+              <NumberCounter end={25} start={0} delay="4" preFix="+" />
             </span>
             <span>fitness programs</span>
           </div>
-        </div>
-        {/*hero buttons*/}
-        <div className="hero-buttons">
-          <buttons className="btn">Get Started</buttons>
-          <buttons className="btn">Learn More</buttons>
         </div>
       </div>
       <div className="right-h">

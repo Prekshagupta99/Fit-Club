@@ -44,11 +44,11 @@ const Header = () => {
             to="reasons"
             span={true}
             smooth={true}>Why us</Link></li>
-          <li> <Link onClick={() => setMenuOpened(false)}
+          {/* <li> <Link onClick={() => setMenuOpened(false)}
             activeClass="active"
             to="plans"
             span={true}
-            smooth={true}>Plans</Link></li>
+            smooth={true}>Plans</Link></li> */}
           <li>
             <Link
               onClick={() => setMenuOpened(false)}

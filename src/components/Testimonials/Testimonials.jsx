@@ -11,9 +11,10 @@ const Testimonials = () => {
   return (
     <div className="Testimonials">
       <div className="left-t">
-        <span>Testimonials</span>
-        <span className="stroke-text">What they</span>
-        <span>say about us</span>
+        <span>Trainers</span>
+        <span className="stroke-text">Certified Personal Trainer</span>
+        <span>Certified Group Fitness Trainer
+        </span>
         <span>{testimonialsData[selected].review}</span>
         <span>
           <span style={{ color: "var(--orange)" }}>
